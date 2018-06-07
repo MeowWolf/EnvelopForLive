@@ -38,6 +38,71 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-36",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 280.0, 530.0, 150.0, 47.0 ],
+					"style" : "",
+					"text" : "0 60\n0 90\n180 60"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-34",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 290.0, 628.0, 150.0, 33.0 ],
+					"style" : "",
+					"text" : "165 45 175 45\n165 0 175 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-32",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 280.0, 468.0, 150.0, 33.0 ],
+					"style" : "",
+					"text" : "345 45 15 45\n340 0 20 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-29",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 452.066681, 551.0, 150.0, 33.0 ],
+					"style" : "",
+					"text" : "45 45 90 45 135 45\n45 0 90 0 135 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 89.0, 551.0, 150.0, 33.0 ],
+					"style" : "",
+					"text" : "225 45 270 45 315 45\n225 0 270 0 315 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-26",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -65,14 +130,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-25",
-					"linecount" : 4,
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 59.0, 214.0, 96.0, 62.0 ],
+					"patching_rect" : [ 59.0, 213.0, 173.0, 76.0 ],
 					"style" : "",
-					"text" : "337.5 1 292.5 1 247.5 1 202.5 1 157.5 1 112.5 1 67.5 1 22.5 1"
+					"text" : "225 45 270 45 315 45 225 0 270 0 315 0 45 45 90 45 135 45 45 0 90 0 135 0 345 45 15 45 340 0 20 0 165 45 175 45 165 0 175 0 0 60 0 90 180 60"
 				}
 
 			}
